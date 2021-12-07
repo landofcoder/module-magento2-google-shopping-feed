@@ -1,0 +1,23 @@
+{
+    "name": "landofcoder/module-google-shopping",
+    "description": "Magento 2 Google Shopping extension",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Landofcoder",
+            "email": "info@landofcoder.com",
+            "homepage": "https://landofcoder.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Lof\\GoogleShopping\\": ""
+        }
+    }
+}
